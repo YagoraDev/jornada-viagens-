@@ -104,9 +104,28 @@
 @media screen and (min-width: 1920px) {
     .offers-cards {
         margin: 0 auto;
-        padding: 0 120px;
+        padding: 0 250px;
     }
     .card {
         width: 688px;
+    }
+    .card.japao {
+      background: url(../img/bg-card-japao-desktop.jpg) no-repeat;
+      background-size: cover; 
+    }
+
+    .card.san-andreas {
+      background: url(../img/bg-card-san-andreas-desktop.jpg) no-repeat;
+      background-size: cover; 
+    }
+
+    .card.paraiba {
+      background: url(../img/bg-card-paraiba-desktop.jpg) no-repeat;
+      background-size: cover; 
+    }
+
+    .card.manaus {
+      background: url(../img/bg-card-manaus-desktop.jpg) no-repeat;
+      background-size: cover; 
     }
 }
