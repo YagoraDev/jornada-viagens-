@@ -83,7 +83,7 @@
     .destination-items {
         display: flex;
         gap: 20px;
-        padding: 0 314px;
+        padding: 0 160px;
     }
 
     .destination-items .item {
@@ -108,5 +108,17 @@
     }
     .destination-items a.button {
         font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .destination-items {
+        padding: 0 60px;
+    }   
+}
+
+@media screen and (min-width: 1920px) {
+    .destination-items {
+        padding: 0 312px;
     }
 }

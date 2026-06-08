@@ -66,14 +66,17 @@
 
 /* trick para tablet */
 @media screen and (min-width: 1024px) {
+    .categories-cards {
+        padding: 0 160px;
+    }
     .categories-cards .card {
-        width: 430px;
+        width: 420px;
     }
 }
 
 @media screen and (min-width: 1440px) {
     .categories-cards .card {
-        width: 280px;
+        width: 282px;
     }
 }
 
@@ -82,6 +85,6 @@
         width: 688px;
     }
     .categories-cards {
-        padding: 0 260px;
+        padding: 0 312px;
     }
 }
